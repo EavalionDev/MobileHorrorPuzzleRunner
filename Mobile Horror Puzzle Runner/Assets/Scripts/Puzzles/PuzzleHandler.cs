@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PuzzleHandler : MonoBehaviour
 {
     public List<GameObject> mathPuzzles = new List<GameObject>();
-    public static bool newPuzzle = false;
+    public static bool newPuzzle;
     private GameObject chosenPuzzle;
     private int index;
     //make a list of categories when youve made them then randomly chose from it first, use bool to confirm chosen category
@@ -15,6 +15,7 @@ public class PuzzleHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        newPuzzle = false;
         ChoosePuzzle();
     }
 
@@ -41,6 +42,19 @@ public class PuzzleHandler : MonoBehaviour
             chosenPuzzle = mathPuzzles[index];
             //chosenPuzzle = mathPuzzles[0];
             chosenPuzzle.SetActive(true);
+            if (index == 0)
+            {
+                MathEasy.generatePuzzle = true;
+
+            }
+            else if (index == 1)
+            {
+                MathMedium.generatePuzzle = true;
+            }
+            else if (index == 3)
+            {
+                MathHard.generatePuzzle = true;
+            }
         }
     }
 

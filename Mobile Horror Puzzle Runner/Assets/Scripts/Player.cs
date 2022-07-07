@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public static bool passedThroughDoor = false;
+    public static bool passedThroughDoor;
     // Start is called before the first frame update
     void Start()
     {
-        
+        passedThroughDoor = false;   
     }
 
     // Update is called once per frame
@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
         {
             print("passed door");
             passedThroughDoor = true;
+            ScoreHandler.addToDoorClearCount = true;
             StartCoroutine(TurnOffBool());
         }
     }

@@ -7,12 +7,14 @@ public class MathEasy : MonoBehaviour
 {
     public List<string> numbersInputted = new List<string>();
     public Text questionText, answerSlot1, answerSlot2, answerSlot3, answerSlot4, answerSlot5, answerSlot6, answerSlot7, minusSlot;
+    public static bool generatePuzzle;
     private Text previousAnswerText;
     private bool setQuestion, listContainsMinus;
     private int answer, answerSlotNum;
     // Start is called before the first frame update
     void Start()
     {
+        generatePuzzle = false;
         answerSlotNum = 1;
         setQuestion = false;
         listContainsMinus = false;
@@ -23,7 +25,7 @@ public class MathEasy : MonoBehaviour
     {
         //print(answerSlotNum);
         //answerText.text = "" + inputtedAnswer;
-        if (PuzzleHandler.newPuzzle)
+        if (generatePuzzle)
         {
             ClearPad();
             int numberOne = Random.Range(0, 51);
@@ -42,6 +44,7 @@ public class MathEasy : MonoBehaviour
                 print(answer);
             }
             setQuestion = true;
+            generatePuzzle = false;
         }
     }
     void ClearPad()
@@ -517,42 +520,59 @@ public class MathEasy : MonoBehaviour
         }
         if (minusSlot.text == "-")
         {
-            int numberSubmitted = int.Parse(total);
-            numberSubmitted = -numberSubmitted;
-            if (numberSubmitted == answer)
+            int numberSubmitted;
+            bool convertNum = int.TryParse(total, out numberSubmitted);
+            if (convertNum)
             {
-                print("CORRECT");
-                ClearPad();
-                if (DoorStopCol.atDoor)
+                numberSubmitted = -numberSubmitted;
+                if (numberSubmitted == answer)
                 {
-                    DoorStopCol.atDoor = false;
+                    print("CORRECT");
+                    ClearPad();
+                    if (DoorStopCol.atDoor)
+                    {
+                        DoorStopCol.atDoor = false;
+                    }
                 }
+                else
+                {
+                    print("WRONG");
+                    ClearPad();
+                }
+                print(numberSubmitted);
             }
             else
             {
-                print("WRONG");
-                ClearPad();
+                Debug.Log("COULD NOT CONVERT STRING TO INT");
             }
-            //print(numberSubmitted);
         }
         else
         {
-            int numberSubmitted = int.Parse(total);
-            if (numberSubmitted == answer)
+            // int numberSubmitted = int.Parse(total);
+            int numberSubmitted;
+            bool convertNum = int.TryParse(total, out numberSubmitted);
+            if (convertNum)
             {
-                print("CORRECT");
-                ClearPad();
-                if (DoorStopCol.atDoor)
+                if (numberSubmitted == answer)
                 {
-                    DoorStopCol.atDoor = false;
+                    print("CORRECT");
+                    ClearPad();
+                    if (DoorStopCol.atDoor)
+                    {
+                        DoorStopCol.atDoor = false;
+                    }
                 }
+                else
+                {
+                    print("WRONG");
+                    ClearPad();
+                }
+                print(numberSubmitted);
             }
             else
             {
-                print("WRONG");
-                ClearPad();
+                Debug.Log("COULD NOT CONVERT STRING TO INT");
             }
-            //print(numberSubmitted);
         }
     }
     public void RedButton()

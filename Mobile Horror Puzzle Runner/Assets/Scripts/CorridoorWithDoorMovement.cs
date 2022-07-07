@@ -6,12 +6,12 @@ public class CorridoorWithDoorMovement : MonoBehaviour
 {
     public ObjectPools objPool;
     public float speed;
-    public bool inPool = true;
+    public bool inPool;
     private Vector3 movePos;
     // Start is called before the first frame update
     void Start()
     {
-
+        inPool = true;
     }
 
     // Update is called once per frame

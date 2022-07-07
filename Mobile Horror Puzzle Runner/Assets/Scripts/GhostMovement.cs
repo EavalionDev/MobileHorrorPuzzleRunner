@@ -47,7 +47,6 @@ public class GhostMovement : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerCaught = true;
-            print("GHOST CAUGHT PLAYER");
         }
     }
 }

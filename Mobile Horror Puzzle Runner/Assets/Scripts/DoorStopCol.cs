@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DoorStopCol : MonoBehaviour
 {
-    public static bool atDoor = false;
+    public static bool atDoor;
     // Start is called before the first frame update
     void Start()
     {
-        
+        atDoor = false;
     }
 
     // Update is called once per frame

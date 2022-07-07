@@ -12,7 +12,7 @@ public class Tablet : MonoBehaviour
     {
         arrivedAtDoor = false;
         tabletUp = false;
-        tabletDown = false;
+        tabletDown = true;
     }
 
     // Update is called once per frame
@@ -52,6 +52,19 @@ public class Tablet : MonoBehaviour
                 tabletDown = false;
                 tabletUp = true;
             }
+        }
+    }
+    public void TabletButton()
+    {
+        if (tabletUp)
+        {
+            tabletUp = false;
+            tabletDown = true;
+        }
+        else if (tabletDown)
+        {
+            tabletDown = false;
+            tabletUp = true;
         }
     }
     
