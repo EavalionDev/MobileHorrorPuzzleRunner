@@ -6,14 +6,14 @@ public class CorridorSpawner : MonoBehaviour
 {
     public ObjectPools objPool;
 
-    private GameObject spawningPos;
+    public GameObject spawningPos;
     private GameObject nextCorridorPiece;
     private float count;
-
+    private int spawnCount = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+         
     }
 
     // Update is called once per frame
@@ -23,13 +23,28 @@ public class CorridorSpawner : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (spawningPos == null)
+        if (other.CompareTag("CorridorWithDoor") || other.CompareTag("Corridor"))
         {
-            spawningPos = other.transform.Find("SpawnPos").gameObject;
+            if (spawningPos == null)
+            {
+                spawningPos = other.transform.Find("SpawnPos").gameObject;
+            }
+            if (spawnCount != 5)
+            {
+                nextCorridorPiece = objPool.corridorV1[0];
+                objPool.corridorV1.Remove(nextCorridorPiece);
+                nextCorridorPiece.transform.position = spawningPos.transform.position;
+                spawnCount++;
+            }
+            else
+            {
+                nextCorridorPiece = objPool.doors[0];
+                objPool.doors.Remove(nextCorridorPiece);
+                nextCorridorPiece.transform.position = spawningPos.transform.position;
+                spawnCount = 0;
+            }
+            spawningPos = null;
+            
         }
-        nextCorridorPiece = objPool.corridorV1[0];
-        objPool.corridorV1.Remove(nextCorridorPiece);
-        nextCorridorPiece.transform.position = spawningPos.transform.position;
-        spawningPos = null;
     }
 }

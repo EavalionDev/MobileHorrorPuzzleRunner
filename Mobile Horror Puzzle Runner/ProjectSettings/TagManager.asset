@@ -7,6 +7,8 @@ TagManager:
   - FarSideSpawner
   - Corridor
   - CorridorWithDoor
+  - Despawner
+  - Door
   layers:
   - Default
   - TransparentFX

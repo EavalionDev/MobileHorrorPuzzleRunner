@@ -30,9 +30,11 @@ public class CorridoorWithDoorMovement : MonoBehaviour
             Move();
         }
         movePos = new Vector3(0, 0, speed * Time.deltaTime);
+
     }
     void Move()
     {
         transform.position -= movePos;
     }
+    
 }
