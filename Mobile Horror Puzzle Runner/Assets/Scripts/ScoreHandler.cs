@@ -20,7 +20,7 @@ public class ScoreHandler : MonoBehaviour
         tempScore = 0;
         timeSurivivedNum = 0;
         doorsClearedNum = 0;
-        doorsCleared = 10;
+        doorsCleared = 0;
         doorCountUp = false;
         timeCountUp = false;
         scoreCountUp = false;

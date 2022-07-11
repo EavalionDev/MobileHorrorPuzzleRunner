@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Tablet : MonoBehaviour
 {
+    public AudioSource speaker;
+    public AudioClip tabletUpSound, tabletDownSound;
     public float speed;
     public Transform tabletUpPos, tabletDownPos;
     private bool arrivedAtDoor, tabletUp, tabletDown;
@@ -33,6 +35,7 @@ public class Tablet : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, tabletDownPos.position, speed * Time.deltaTime);
         }
 
+
         if (!DoorStopCol.atDoor && tabletUp)
         {
             tabletUp = false;
@@ -46,11 +49,15 @@ public class Tablet : MonoBehaviour
             {
                 tabletUp = false;
                 tabletDown = true;
+                speaker.clip = tabletUpSound;
+                speaker.Play();
             }
             else if (tabletDown)
             {
                 tabletDown = false;
                 tabletUp = true;
+                speaker.clip = tabletDownSound;
+                speaker.Play();
             }
         }
     }
@@ -60,11 +67,15 @@ public class Tablet : MonoBehaviour
         {
             tabletUp = false;
             tabletDown = true;
+            speaker.clip = tabletUpSound;
+            speaker.Play();
         }
         else if (tabletDown)
         {
             tabletDown = false;
             tabletUp = true;
+            speaker.clip = tabletDownSound;
+            speaker.Play();
         }
     }
     

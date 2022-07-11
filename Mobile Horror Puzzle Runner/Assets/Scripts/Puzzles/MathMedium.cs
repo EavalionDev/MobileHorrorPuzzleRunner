@@ -13,7 +13,7 @@ public class MathMedium : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        generatePuzzle = false;
+        generatePuzzle = true;
         answerSlotNum = 1;
         setQuestion = false;
         listContainsMinus = false;
@@ -22,13 +22,11 @@ public class MathMedium : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //print(answerSlotNum);
-        //answerText.text = "" + inputtedAnswer;
         if (generatePuzzle)
         {
             ClearPad();
-            int numberOne = Random.Range(100, 501);
-            int numberTwo = Random.Range(100, 501);
+            int numberOne = Random.Range(50, 101);
+            int numberTwo = Random.Range(50, 101);
             int action = Random.Range(0, 2);
             if (action == 0)
             {
@@ -62,6 +60,7 @@ public class MathMedium : MonoBehaviour
     //Keypad Functionality
     public void Zero()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "0";
@@ -107,6 +106,7 @@ public class MathMedium : MonoBehaviour
     }
     public void One()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "1";
@@ -152,6 +152,7 @@ public class MathMedium : MonoBehaviour
     }
     public void Two()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "2";
@@ -197,6 +198,7 @@ public class MathMedium : MonoBehaviour
     }
     public void Three()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "3";
@@ -242,6 +244,7 @@ public class MathMedium : MonoBehaviour
     }
     public void Four()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "4";
@@ -287,6 +290,7 @@ public class MathMedium : MonoBehaviour
     }
     public void Five()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "5";
@@ -332,6 +336,7 @@ public class MathMedium : MonoBehaviour
     }
     public void Six()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "6";
@@ -377,6 +382,7 @@ public class MathMedium : MonoBehaviour
     }
     public void Seven()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "7";
@@ -422,6 +428,7 @@ public class MathMedium : MonoBehaviour
     }
     public void Eight()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "8";
@@ -467,6 +474,7 @@ public class MathMedium : MonoBehaviour
     }
     public void Nine()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (answerSlotNum == 1)
         {
             answerSlot1.text = "9";
@@ -512,6 +520,8 @@ public class MathMedium : MonoBehaviour
     }
     public void GreenButton()
     {
+        PuzzleHandler.greenKeypadButtonPressed = true;
+
         string total = string.Empty;
         for (int i = 0; i < numbersInputted.Count; i++)
         {
@@ -577,9 +587,11 @@ public class MathMedium : MonoBehaviour
     public void RedButton()
     {
         ClearPad();
+        PuzzleHandler.redKeypadButtonPressed = true;
     }
     public void MinusButton()
     {
+        PuzzleHandler.keyPadButtonPressed = true;
         if (minusSlot.text == "")
         {
             print("ADD MINUS");
