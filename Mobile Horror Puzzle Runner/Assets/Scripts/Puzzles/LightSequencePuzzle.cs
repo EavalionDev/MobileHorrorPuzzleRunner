@@ -11,9 +11,13 @@ public class LightSequencePuzzle : MonoBehaviour
     private Image selectedButton, chosenButtonForSequence;
     public List<Image> sequnce = new List<Image>();
 
+
+    private bool sequence, lightSequence;
     // Start is called before the first frame update
     void Start()
     {
+        lightSequence = false;
+        sequence = false;
         canInteract = false;
         generatePuzzle = true;
     }
@@ -23,7 +27,8 @@ public class LightSequencePuzzle : MonoBehaviour
     {
         if (generatePuzzle)
         {
-            StartCoroutine(StartSequence());
+            //StartCoroutine(StartSequence());
+            sequence = true;
             generatePuzzle = false;
             if (sequnce.Count > 0)
             {
@@ -31,6 +36,22 @@ public class LightSequencePuzzle : MonoBehaviour
             }
         }
 
+        if (sequence)
+        {
+            //The amount of lights that will be used for the sequence 
+            int numberOfLights = Random.Range(4, 7);
+            //Randomly select lights to add to the sequence
+            while (numberOfLights > 0)
+            {
+                int index = Random.Range(0, lights.Count);
+                chosenButtonForSequence = lights[index];
+                sequnce.Add(chosenButtonForSequence);
+                numberOfLights--;
+            }
+            //Once the list for the sequence is made, start the coroutine that lights them
+            StartCoroutine(StartSequence());
+            sequence = false;
+        }
     }
     void ClearSequence()
     {
@@ -38,38 +59,21 @@ public class LightSequencePuzzle : MonoBehaviour
     }
     IEnumerator StartSequence()
     {
-        //URGENT NOTE: FOR SOME REASON THE FIRST BUTTON TP LIGHT UP IS NOT ADDED TO THE LIST AND THE 2ND WILL BE THE FIRST ADDED
-
-        int numberOfLights = Random.Range(4, 7);
-        int numTest = 0;
-        for (int i = 0; i < numberOfLights; i++)
+        //iterates through the sequence and lights each light for 0.3 seconds then turns it back off
+        int count = 0;
+        while (count < sequnce.Count)
         {
-            print("BUTTON IS LIT");
-            int index = Random.Range(0, lights.Count);
-            chosenButtonForSequence = lights[index];
-            sequnce.Add(chosenButtonForSequence);
+            chosenButtonForSequence = sequnce[count];
             yield return new WaitForSeconds(0.3f);
             chosenButtonForSequence.color = Color.red;
             yield return new WaitForSeconds(0.3f);
             chosenButtonForSequence.color = Color.white;
-            numTest++;
-            print("NUM TEST " + numTest);
+            count++;
         }
-        //while (numberOfLights > 0)
-        //{
-        //    print("BUTTON IS LIT");
-        //    int index = Random.Range(0, lights.Count);
-        //    chosenButtonForSequence = lights[index];
-        //    sequnce.Add(chosenButtonForSequence);
-        //    yield return new WaitForSeconds(0.3f);
-        //    chosenButtonForSequence.color = Color.red;
-        //    yield return new WaitForSeconds(0.3f);
-        //    chosenButtonForSequence.color = Color.white;
-        //    numTest++;
-        //    print("NUM TEST " + numTest);
-        //}
+        //player can now interact with the board to try and copy the sequence
         canInteract = true;
     }
+
     IEnumerator ButtonPressed()
     {
         if (canInteract)
@@ -138,7 +142,7 @@ public class LightSequencePuzzle : MonoBehaviour
         }
         yield return new WaitForSeconds(0.3f);
         ClearSequence();
-        StartCoroutine(StartSequence());
+        sequence = true;
     }
     public void LightButtonOne()
     {
