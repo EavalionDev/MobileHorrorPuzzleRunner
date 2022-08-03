@@ -149,7 +149,7 @@ public class ScoreHandler : MonoBehaviour
     }
     public void MenuButton()
     {
-        print("GO TO MENU");
+        SceneManager.LoadScene("Menu");
     }
 
 }

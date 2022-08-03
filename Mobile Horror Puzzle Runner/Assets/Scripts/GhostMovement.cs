@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GhostMovement : MonoBehaviour
 {
+    public Transform player;
     public float speedForward, speedBackward;
     private bool moveForward;
     public static bool playerCaught;
@@ -28,9 +29,17 @@ public class GhostMovement : MonoBehaviour
                 moveForward = false;
             }
 
+            float dist = Vector3.Distance(gameObject.transform.position, player.position);
             if (moveForward)
             {
-                transform.position += new Vector3(0, 0, speedForward * Time.deltaTime);
+                if (dist > 10f)
+                {
+                    transform.position += new Vector3(0, 0, speedForward * Time.deltaTime);
+                }
+                else
+                {
+                    transform.position += new Vector3(0, 0, speedForward/2 * Time.deltaTime);
+                }
             }
             else
             {

@@ -1,0 +1,1657 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1826; Version 2009; 64bit' Language: 'en' Physical Memory: 16344 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+U:\Unity\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+U:/GithubRepositorys/MobileHorrorPuzzleRunner/Mobile Horror Puzzle Runner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51064
+Successfully changed project path to: U:/GithubRepositorys/MobileHorrorPuzzleRunner/Mobile Horror Puzzle Runner
+U:/GithubRepositorys/MobileHorrorPuzzleRunner/Mobile Horror Puzzle Runner
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 73.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path U:/Unity/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path U:/GithubRepositorys/MobileHorrorPuzzleRunner/Mobile Horror Puzzle Runner/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'U:/Unity/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'U:/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'U:/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: U:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: U:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: U:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002248 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.756 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023873E32010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F1F450 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F2F3E0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873ED1010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873ED1010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F72DA20 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238700B2030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873EEB020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F2EFE0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238749B3020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F601420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F2FBE0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875740010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F601420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F451AB0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F609E30 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873EEB020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874BD5010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F624640 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238741DB420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874BD5010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F609E30 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F2EDE0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FB56A50 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FB56A50 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387401E020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2715 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.2 MB.
+System memory in use after: 127.5 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3122.
+Total: 3.627900 ms (FindLiveObjects: 0.264000 ms CreateObjectMapping: 0.146600 ms MarkObjects: 2.029200 ms  DeleteObjects: 1.187100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
+  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057c629e9591e646e979d0fd0d9eba29') in 0.263989 seconds
+  Import took 0.268162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+  artifactKey: Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat using Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8fef95f5cf1ab691e96a9fc0590164') in 0.022179 seconds
+  Import took 0.026039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65caa98638249afbfcd9ddc1653511d') in 0.105261 seconds
+  Import took 0.109175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/ExampleAssets/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1cfc9a87186a9cfc8dd841d8e914e4') in 0.032442 seconds
+  Import took 0.036274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Transparent.mat
+  artifactKey: Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Transparent.mat using Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa88e47cc5ed2495feca365ac46df73c') in 0.009425 seconds
+  Import took 0.013401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Materials/White.mat
+  artifactKey: Guid(6bebf8e1f2506874195a768faaa7faf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White.mat using Guid(6bebf8e1f2506874195a768faaa7faf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c6af6402132386c1e14b055bde34e4') in 0.009704 seconds
+  Import took 0.014959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
+  artifactKey: Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Jigsaw_Mat.mat using Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2c3e8b482bfe7692597efc101f542e') in 0.026513 seconds
+  Import took 0.030991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/ModelsAndTextures/Door/Door.mat
+  artifactKey: Guid(17d92611a7f5f204e88b1150ff88dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/Door/Door.mat using Guid(17d92611a7f5f204e88b1150ff88dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d199bfe8fbd0eaeeb8443b5f3ba785') in 0.017810 seconds
+  Import took 0.021701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/ModelsAndTextures/HospitalCorridor1/Floor.mat
+  artifactKey: Guid(414da9c06432db146869816cfb110014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/HospitalCorridor1/Floor.mat using Guid(414da9c06432db146869816cfb110014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19d1787149f6ae669185dd112dda728') in 0.019900 seconds
+  Import took 0.024133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/ExampleAssets/Models/brush_low.fbx
+  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635d704299d09186444d780076cd2dd8') in 0.020499 seconds
+  Import took 0.024762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/ExampleAssets/Materials/Hammer_Mat.mat
+  artifactKey: Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Hammer_Mat.mat using Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35e9c0d8e130d6ff509af1a613494d7') in 0.021050 seconds
+  Import took 0.025129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6997b7b45768a0f0cb68fb82cf774c') in 0.062527 seconds
+  Import took 0.066598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ab71af590679b32677dc30ed226a51') in 0.018027 seconds
+  Import took 0.021999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/ModelsAndTextures/HospitalCorridor1/Ceiling.mat
+  artifactKey: Guid(459f31cbbc345dd4aabf0cfcf5e1af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/HospitalCorridor1/Ceiling.mat using Guid(459f31cbbc345dd4aabf0cfcf5e1af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd55498f20cc1e37fa7f384d0cfd0f1') in 0.014049 seconds
+  Import took 0.018195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/ExampleAssets/Materials/PaintLabel_Mat.mat
+  artifactKey: Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintLabel_Mat.mat using Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c36a7279f016c98e6c23d7bc391d33c') in 0.029629 seconds
+  Import took 0.033661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dece8a94b94b429a6374af47412d2cbb') in 0.041389 seconds
+  Import took 0.045381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/ModelsAndTextures/Wheelchair/Chair.mat
+  artifactKey: Guid(fe5ace0bb44014a48ab59332456fcd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/Wheelchair/Chair.mat using Guid(fe5ace0bb44014a48ab59332456fcd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19c3f6617c3e85008226e4370975d82') in 0.013489 seconds
+  Import took 0.017856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed9e64f0d16e62cbd185bf095894f5b') in 0.012975 seconds
+  Import took 0.017046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
+  artifactKey: Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat using Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867bca899d157f77d37634eafef9f1aa') in 0.012655 seconds
+  Import took 0.017002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/ModelsAndTextures/CorridorWithADoor/Walls.mat
+  artifactKey: Guid(c5526c233d74fc54fb2ffe2a8ab58663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/CorridorWithADoor/Walls.mat using Guid(c5526c233d74fc54fb2ffe2a8ab58663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b19684ea92af489d5c18a2698119bd') in 0.014615 seconds
+  Import took 0.018981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/ModelsAndTextures/CorridorWithADoor/BackWall.mat
+  artifactKey: Guid(5c8b0192373fd0d4c8256fac45248f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/CorridorWithADoor/BackWall.mat using Guid(5c8b0192373fd0d4c8256fac45248f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e4fd4a34b51ef2247a17c89c0ac30f') in 0.011326 seconds
+  Import took 0.015653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
+  artifactKey: Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat using Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d0adbd293f6d73553ee1adc198f712') in 0.013870 seconds
+  Import took 0.018241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa2aecd2a25a8d8aaf6cdad1b5a242e') in 0.022106 seconds
+  Import took 0.026291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/ExampleAssets/Models/safetyhat_low.fbx
+  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9463e562304e9103c556e502281b2ec9') in 0.016886 seconds
+  Import took 0.021231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/ExampleAssets/Models/small_plane.fbx
+  artifactKey: Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/small_plane.fbx using Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9489a55ab6c56f9079d6bea3c7015f76') in 0.017109 seconds
+  Import took 0.021641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
+  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1d94bab502ca3021b8842519c6e122') in 0.018141 seconds
+  Import took 0.022332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a542234631127ea0c107d7d268657760') in 0.013017 seconds
+  Import took 0.017176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/ExampleAssets/Models/hammer_low.fbx
+  artifactKey: Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/hammer_low.fbx using Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0339d73c88093293665df2033998fc') in 0.018019 seconds
+  Import took 0.022427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/ExampleAssets/Models/safetygoggles_low.fbx
+  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9de345caebdf6e6e7bdc04e6a94b1b') in 0.030570 seconds
+  Import took 0.034895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
+  artifactKey: Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat using Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4d08b544b44bbbf01fdafd95ff430a') in 0.015374 seconds
+  Import took 0.019933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/ExampleAssets/Models/Stud.fbx
+  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee35dd723eab1d1d90c3b076cdf81c80') in 0.026420 seconds
+  Import took 0.030621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/ExampleAssets/Materials/Ground_Mat.mat
+  artifactKey: Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Ground_Mat.mat using Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464ecfb875d680da63be4f88529f4394') in 0.022711 seconds
+  Import took 0.027346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Materials/Grey.mat
+  artifactKey: Guid(8c32268f81f7a9f45ab1b93e948572b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grey.mat using Guid(8c32268f81f7a9f45ab1b93e948572b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209907f6ea6f72182d81c29220a09fab') in 0.009849 seconds
+  Import took 0.014493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat
+  artifactKey: Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat using Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a82a5da02497828fc2c902b30e60d5') in 0.011775 seconds
+  Import took 0.016242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/ExampleAssets/Models/paintbucket_low.fbx
+  artifactKey: Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/paintbucket_low.fbx using Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153995b30bf52e7771d035b58bdc5b40') in 0.042993 seconds
+  Import took 0.047305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/ModelsAndTextures/Wheelchair/Pipes_Wheels.mat
+  artifactKey: Guid(af83a9dffeb79094591d189f8e72e633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/Wheelchair/Pipes_Wheels.mat using Guid(af83a9dffeb79094591d189f8e72e633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a044488eb559806619909984c06d9bf9') in 0.013319 seconds
+  Import took 0.017228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54ab3375f41efad00566dcae11def2') in 0.011135 seconds
+  Import took 0.015221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Materials/Black.mat
+  artifactKey: Guid(3a52af0599c19de4d9b6ab48abe19fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Black.mat using Guid(3a52af0599c19de4d9b6ab48abe19fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356cadfec396c9cff334e7b7cf366a0b') in 0.010721 seconds
+  Import took 0.014931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/ModelsAndTextures/Wheelchair/MainWheels1.mat
+  artifactKey: Guid(80a726fa709bf2d4ebb69148d44ad398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/Wheelchair/MainWheels1.mat using Guid(80a726fa709bf2d4ebb69148d44ad398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a7d37d38f85e4ee3acc5cea8ad3405') in 0.013196 seconds
+  Import took 0.017351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/ModelsAndTextures/Door/lambert1.mat
+  artifactKey: Guid(4ccdc17475479a6458bdc2939ec34fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/Door/lambert1.mat using Guid(4ccdc17475479a6458bdc2939ec34fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44d85a65cf5782e91531e1a7cdd20fd') in 0.009513 seconds
+  Import took 0.013733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97217d6a54e6f9fecd2c544f104457ed') in 0.065188 seconds
+  Import took 0.069312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/ExampleAssets/Materials/HardHat_Mat.mat
+  artifactKey: Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/HardHat_Mat.mat using Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0451e8e4fc44c0c0ad06b480daab191') in 0.020176 seconds
+  Import took 0.024006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Materials/PixelEffect.mat
+  artifactKey: Guid(304d04d0eb781f84d8953e8fc0e8ab97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PixelEffect.mat using Guid(304d04d0eb781f84d8953e8fc0e8ab97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caec044647b0fb64f3e304130e34128') in 0.010637 seconds
+  Import took 0.014795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
+  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e084f414280b96736064de24338bc225') in 0.016810 seconds
+  Import took 0.021167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
+  artifactKey: Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat using Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec41258e50d7b0724bce6a1b02e69ab') in 0.012326 seconds
+  Import took 0.016689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b31a38aa84ec72b691f75649480a6fe') in 0.024500 seconds
+  Import took 0.029011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cc34955bdecde4681208cb4bf3a1e0') in 0.062580 seconds
+  Import took 0.066710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/ExampleAssets/Materials/Liquid_Mat.mat
+  artifactKey: Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Liquid_Mat.mat using Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9985e948210718225141c8418d287') in 0.009561 seconds
+  Import took 0.013938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd04199af43445cb2cc288251b06194') in 0.013751 seconds
+  Import took 0.018431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7270cf5fe7035eb4043b23a71cdca86e') in 0.012233 seconds
+  Import took 0.016839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f8432233d9ceec849c9f270325d606') in 0.021445 seconds
+  Import took 0.026415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/ModelsAndTextures/HospitalCorridor1/Walls.mat
+  artifactKey: Guid(7fd4607d04524b64fa1e63e91f45056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelsAndTextures/HospitalCorridor1/Walls.mat using Guid(7fd4607d04524b64fa1e63e91f45056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c167c04d50d44eb463fb425b190870') in 0.012988 seconds
+  Import took 0.018049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004897 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023877EA2030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F642010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FC070 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387820E020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238760BE010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F9F4010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F6118D0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FC270 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F31BB0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238760BE010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FD070 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387F99E6A0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387869D030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387FC7A010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F6A3EB0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FCB2990 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238756310C0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387F862710 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F9F4010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5E2010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877238C40 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FC070 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387820E020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387820E020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875A7C020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.3 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3206.
+Total: 3.844500 ms (FindLiveObjects: 0.234300 ms CreateObjectMapping: 0.105600 ms MarkObjects: 2.299600 ms  DeleteObjects: 1.204000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005053 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023876118010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F642010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FD870 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238788D8020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387806F010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238747E7030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002388023F540 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FD070 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F31BB0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A424A030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FD070 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F8381A0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387869D030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877E211A0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874DA9030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FCB2990 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238756310C0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A3E3A960 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877955430 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F31BB0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877A1EE30 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FD870 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238756310C0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875A7C020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.3 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 3.791400 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.064300 ms  DeleteObjects: 1.385900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1291.494021 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a913a0049096cde5d6a727232f232f') in 0.010399 seconds
+  Import took 0.015945 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005060 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238771DA030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A422E890 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FC470 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878505020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FC93040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875B14030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FCE70 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873FCA930 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238778FF020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FC470 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875F6C010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875B14030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387E2ADC80 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A42F6C20 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FFE50 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238756310C0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A54BE380 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875B14030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874CEF020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F6AFC0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FCA70 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238756310C0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875A7C020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 3.805000 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.030800 ms  DeleteObjects: 1.443500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 124.928082 seconds.
+  path: Assets/Scripts/MenuHandler.cs
+  artifactKey: Guid(59979880147f332479d68842c0dbd508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuHandler.cs using Guid(59979880147f332479d68842c0dbd508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd934b2294faa6c3e87a7b24f4100bde') in 0.017660 seconds
+  Import took 0.022855 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004784 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238A4298010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F9688C0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FD870 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A68BC060 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238800B6950 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238760AE010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FAB9C80 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387766E020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FCE70 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FAF2F00 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238778FF020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FCE70 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874B6C010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387766E020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A2E3D1A0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877238C40 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FCB2990 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238753B3030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A66E2170 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FAB9C80 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874BD5010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F9F4010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FCE70 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238800969A0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A682C010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 124.8 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3216.
+Total: 3.677500 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.114100 ms MarkObjects: 1.938000 ms  DeleteObjects: 1.388100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004823 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238A4298010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238775AA890 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FCA70 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874030010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238800B6950 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FFE50 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FAE03E0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A5598010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FCA70 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F742690 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238778FF020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FD070 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238770E2010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238778FF020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A2E3D1A0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873F1D440 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FCB2990 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7BDFDD0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FAE03E0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877E3E040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FC93040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238752FCA70 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874030010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A682C010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 124.8 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3219.
+Total: 3.713900 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.119700 ms MarkObjects: 1.930900 ms  DeleteObjects: 1.402800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004828 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238771DA030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877DFE060 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F624750 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875F2A030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238800B6950 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F774010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7BAE030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7E08050 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F624B50 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238775C6030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238778FF020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F624F50 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874B6C010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7E08050 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A2E3D1A0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875F68010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FCB2990 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A2E0E010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A8F3B280 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875E4A060 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386FAF2F00 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874002970 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F623950 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023875F2A030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A682C010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 4.623800 ms (FindLiveObjects: 0.252200 ms CreateObjectMapping: 0.115500 ms MarkObjects: 2.517200 ms  DeleteObjects: 1.737300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.4 MB.
+System memory in use after: 78.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 4.214700 ms (FindLiveObjects: 0.262200 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.358900 ms  DeleteObjects: 1.467500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 888.793405 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(d2f921676b4a8ab4c9641a8d24b26f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(d2f921676b4a8ab4c9641a8d24b26f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ccc5d9871f7cc335881cac3d743a9c') in 0.006840 seconds
+  Import took 0.013025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053968 seconds.
+  path: Assets/Prefabs/Corridor With Door.prefab
+  artifactKey: Guid(4ccee542a95592b45bc31b7c9ccf8f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Corridor With Door.prefab using Guid(4ccee542a95592b45bc31b7c9ccf8f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737b674740947b282263b2ac1d1c02a7') in 0.388672 seconds
+  Import took 0.393397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Prefabs/HospitalCorridor.prefab
+  artifactKey: Guid(75a7c7ed737da874bb612380a294804e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HospitalCorridor.prefab using Guid(75a7c7ed737da874bb612380a294804e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c823fb9047f3b7e76bfec0634b58e5e') in 0.005322 seconds
+  Import took 0.009567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Prefabs/HospitalCorridorV2.prefab
+  artifactKey: Guid(c4c9bacd52b6bdd4db59ca12e823cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HospitalCorridorV2.prefab using Guid(c4c9bacd52b6bdd4db59ca12e823cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eddc718490777a800562a34749e0781') in 0.022422 seconds
+  Import took 0.027063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Prefabs/CorridorVariant1.prefab
+  artifactKey: Guid(fff479b83e8d44c48b8ae46faa857213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CorridorVariant1.prefab using Guid(fff479b83e8d44c48b8ae46faa857213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a753fcbcb56d9fde38b1ff9a22983976') in 0.024279 seconds
+  Import took 0.029273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.463349 seconds.
+  path: Assets/Prefabs/Art
+  artifactKey: Guid(c2b763a771165e7459fa19159fa2db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Art using Guid(c2b763a771165e7459fa19159fa2db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defaea373a5079bf8b3ee3eb3779cc84') in 0.013531 seconds
+  Import took 0.023083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.698947 seconds.
+  path: Assets/Prefabs/Art/Studio Eavalion.png
+  artifactKey: Guid(7add66a5d006ab04386a4de8271307f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Art/Studio Eavalion.png using Guid(7add66a5d006ab04386a4de8271307f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e92dbd5c4cd08e1135b861a74ce2f3') in 0.056379 seconds
+  Import took 0.060651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.870117 seconds.
+  path: Assets/Prefabs/Art/Studio Eavalion.png
+  artifactKey: Guid(7add66a5d006ab04386a4de8271307f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Art/Studio Eavalion.png using Guid(7add66a5d006ab04386a4de8271307f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4e54e11f922c089d8134b32d6d4ced') in 0.038770 seconds
+  Import took 0.044337 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 79.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 4.910600 ms (FindLiveObjects: 0.343800 ms CreateObjectMapping: 0.216500 ms MarkObjects: 2.769700 ms  DeleteObjects: 1.579500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005089 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238771DA030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023873EA1470 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F921C60 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387B4F2010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387E40A010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387A565040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387AC27030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F923060 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A4BF7010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A869C010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F920C60 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387C976880 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387A5AFEF0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238AE5C7540 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023680761020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874D13020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B19B9C80 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7759700 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CC0C030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878FCA660 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877104020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F923C60 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387482B010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3265.
+Total: 4.181100 ms (FindLiveObjects: 0.274400 ms CreateObjectMapping: 0.114000 ms MarkObjects: 2.326100 ms  DeleteObjects: 1.465600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 78.9 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3265.
+Total: 3.992100 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.119100 ms MarkObjects: 2.205500 ms  DeleteObjects: 1.411900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1139.472964 seconds.
+  path: Assets/Scenes/Prototype.unity
+  artifactKey: Guid(425d0c45d2206f9438767a361c2345d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prototype.unity using Guid(425d0c45d2206f9438767a361c2345d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72009c5087f6a9c155c150081cf5ff02') in 0.093244 seconds
+  Import took 0.099508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.220798 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(235927ad55bce4640aee690f2dfb9742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(235927ad55bce4640aee690f2dfb9742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a302f76d29607d3c675cad59bff17a') in 0.005965 seconds
+  Import took 0.010984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.966240 seconds.
+  path: Assets/Scripts/GameOverCanvas.cs
+  artifactKey: Guid(b208bcf1624bfe54f95f5a317e6a8ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameOverCanvas.cs using Guid(b208bcf1624bfe54f95f5a317e6a8ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cfcab050dc947e04994c6ae4c9cd3c') in 0.005115 seconds
+  Import took 0.010686 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238AC2C8020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238ADDB1CA0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F922A60 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238790B0070 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387D9E1020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B0565020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387EFCE030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F922460 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CF72EA0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B4B98020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F922260 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387F99D290 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387A5AFEF0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386A576B30 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878465050 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238AF0D8010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878AED080 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387E2C73D0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CC0C030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023874B6C010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877104020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F923660 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7BA5020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023680EF15C0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2640 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3269.
+Total: 3.759700 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.121700 ms MarkObjects: 1.969600 ms  DeleteObjects: 1.373500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004577 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238AC2C8020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F752350 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F921060 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238790B0070 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387D9E1020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B0565020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387EFCE030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F922860 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CF72EA0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B4B98020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F920E60 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387A7AA020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A5C14010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386A578850 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238AAD79010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387B620FE0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878AED080 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B4D07600 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CC0C030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1C70040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023877104020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F922C60 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7BA5020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387ED38B00 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2640 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3272.
+Total: 4.089600 ms (FindLiveObjects: 0.255700 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.298900 ms  DeleteObjects: 1.423500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 73.255260 seconds.
+  path: Assets/Scripts/GameOverCanvas.cs
+  artifactKey: Guid(b208bcf1624bfe54f95f5a317e6a8ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameOverCanvas.cs using Guid(b208bcf1624bfe54f95f5a317e6a8ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfd8fcd32baee2b84eba79585bdf96f') in 0.005782 seconds
+  Import took 0.009815 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004811 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238A4298010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878DCC370 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F923460 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878CFC010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387D9E1020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B0565020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387EFCE030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F920860 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CF72EA0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B4B98020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F920260 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023680737010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A5C14010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386A57A570 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238AAD79010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238AE489020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878AED080 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387B784100 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CC0C030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1C70040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1B6B040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F921260 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7BA5020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387ED38B00 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2640 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3275.
+Total: 4.239700 ms (FindLiveObjects: 0.302200 ms CreateObjectMapping: 0.140200 ms MarkObjects: 2.218600 ms  DeleteObjects: 1.577500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004399 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238A4298010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1E8C080 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F920260 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878CFC010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387D9E1020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B0565020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387EFCE030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F922A60 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CF72EA0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B4B98020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F921C60 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023680737010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A5C14010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386A576B30 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A58A1010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387E22FC70 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878AED080 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238AEF47570 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CC0C030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1C70040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1B6B040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F922C60 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7BA5020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F5F4420 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387ED38B00 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 4.155100 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.141900 ms MarkObjects: 2.190300 ms  DeleteObjects: 1.552300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004682 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238A4298010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1DB17D0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F922060 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023878CFC010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F723010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B02D4020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B202C010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387EFCE030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F923460 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CF72EA0 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B4B98020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F920460 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023680737010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A5C14010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386A57A570 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A58A1010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1796010 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387D1DB020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A8E42920 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387CC0C030 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1C70040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238B1B6B040 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002386F923060 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238A7BA5020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387BFB4020 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002387ED38B00 doesn't match image U:\GithubRepositorys\MobileHorrorPuzzleRunner\Mobile Horror Puzzle Runner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.7 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3280.
+Total: 4.164300 ms (FindLiveObjects: 0.327400 ms CreateObjectMapping: 0.157600 ms MarkObjects: 2.181300 ms  DeleteObjects: 1.496600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 4.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 79.0 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3280.
+Total: 3.961900 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.128100 ms MarkObjects: 2.002300 ms  DeleteObjects: 1.557400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
